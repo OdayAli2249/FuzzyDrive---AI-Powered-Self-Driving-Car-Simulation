@@ -64,10 +64,4 @@ Welcome to **FuzzyDrive**, a Unity 3D simulation that demonstrates the capabilit
 
 ### Contributions:
 Contributions are welcome! Please fork the repository and create a pull request with your improvements or bug fixes.
-
-### License:
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
 Explore, modify, and enhance the project to gain insights into AI, fuzzy logic, and game development with Unity. FuzzyDrive offers an engaging and educational experience for developers and researchers alike. Happy coding!
