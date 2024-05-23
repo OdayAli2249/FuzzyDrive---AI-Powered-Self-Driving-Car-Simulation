@@ -1,7 +1,7 @@
 ## FuzzyDrive - AI-Powered Self-Driving Car Simulation
 
 ### Description:
-Welcome to **FuzzyDrive**, a Unity 3D simulation that demonstrates the capabilities of an AI-powered self-driving car using fuzzy logic and rule-based system technologies. This project tackles the complex challenge of implementing a self-driving car simulation, based on research from a self-driving car simulation paper which you can find here (https://www.researchgate.net/publication/2247942_Fuzzy_Control_to_Drive_Car-Like_Vehicles).
+Welcome to **FuzzyDrive**, a Unity 3D simulation that demonstrates the capabilities of an AI-powered self-driving car using fuzzy logic and rule-based system technologies. This project tackles the complex challenge of implementing a self-driving car simulation, based on research from a self-driving car simulation paper which you can find [here] (https://www.researchgate.net/publication/2247942_Fuzzy_Control_to_Drive_Car-Like_Vehicles).
 
 ### Features:
 - **Fuzzy Logic System**: The self-driving car's decision-making process is built on fuzzy logic, utilizing fuzzy variables and fuzzy sets to manage the uncertainties and continuous nature of real-world driving conditions.
