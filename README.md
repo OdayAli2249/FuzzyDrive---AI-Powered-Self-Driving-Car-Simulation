@@ -16,6 +16,9 @@ Welcome to **FuzzyDrive**, a Unity 3D simulation that demonstrates the capabilit
   - **∅**: The steering angle of the front wheels.
   - **V**: The speed of the car, representing the distance traveled by the center of mass in one time step.
 
+![Figure 1: State Variables of the Car](Figures/1.png)
+- *Figure 1: State Variables of the Car*
+
 - **Fuzzy Sets and Rules**: The AI behavior is governed by fuzzy sets and rules:
   - **Path Follow Behavior**: Ensures the car follows a specific path from a start point to an end point when no obstacle is within a certain distance (distance-save). The input variables for this behavior include:
     - **α(t)**: The angle between the line from the car's center of mass to the current target node and the car's longitudinal axis.
@@ -41,6 +44,12 @@ Welcome to **FuzzyDrive**, a Unity 3D simulation that demonstrates the capabilit
     - **Approach(t)**: {0, 1}
   - This behavior adjusts the car's steering and speed to avoid collisions with detected obstacles. Defuzzification uses the center of mass method to compute the final output.
 
+![Figure 2: Polar Regions for Obstacle Detection](Figures/2.png)
+- *Figure 2: Polar Regions for Obstacle Detections*
+
+![Figure 3: My enhanced way of defining polar regions](Figures/3.png)
+- *Figure 3: My enhanced way of defining polar regions*
+
 ### Defuzzification:
 - The system employs the center of mass method for defuzzification, ensuring smooth transitions between different control states.
 - **Output Variables**:
@@ -52,15 +61,11 @@ Welcome to **FuzzyDrive**, a Unity 3D simulation that demonstrates the capabilit
 - **Control the User Car**: Use the keyboard or controller to navigate the user-controlled car.
 - **Observe the AI Car**: Watch the AI-powered car as it dynamically navigates the environment, avoiding obstacles and reacting to the user-controlled car.
 
-### Figures and Charts:
-![Figure 1: State Variables of the Car](Figures/1.png)
-*Figure 1: State Variables of the Car*
+### Output ans Demo:
 
-![Figure 2: Polar Regions for Obstacle Detection](Figures/2.png)
-*Figure 2: Polar Regions for Obstacle Detections*
+![Figure 3: output screen](Figures/4.png)
 
-![Figure 3: My enhanced way of defining polar regions](Figures/3.png)
-*Figure 3: My enhanced way of defining polar regions*
+[DEMO](https://www.researchgate.net/publication/2247942_Fuzzy_Control_to_Drive_Car-Like_Vehicles)
 
 ### Contributions:
 Contributions are welcome! Please fork the repository and create a pull request with your improvements or bug fixes.
