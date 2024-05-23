@@ -53,14 +53,14 @@ Welcome to **FuzzyDrive**, a Unity 3D simulation that demonstrates the capabilit
 - **Observe the AI Car**: Watch the AI-powered car as it dynamically navigates the environment, avoiding obstacles and reacting to the user-controlled car.
 
 ### Figures and Charts:
-![Figure 1: State Variables of the Car](path/to/figure1.png)
+![Figure 1: State Variables of the Car](Figures/1.png)
 *Figure 1: State Variables of the Car*
 
-![Figure 2: Angle Definitions](path/to/figure2.png)
-*Figure 2: Angle Definitions*
+![Figure 2: Polar Regions for Obstacle Detection](Figures/2.png)
+*Figure 2: Polar Regions for Obstacle Detections*
 
-![Figure 3: Polar Regions for Obstacle Detection](path/to/figure3.png)
-*Figure 3: Polar Regions for Obstacle Detection*
+![Figure 3: My enhanced way of defining polar regions](Figures/3.png)
+*Figure 3: My enhanced way of defining polar regions*
 
 ### Contributions:
 Contributions are welcome! Please fork the repository and create a pull request with your improvements or bug fixes.
