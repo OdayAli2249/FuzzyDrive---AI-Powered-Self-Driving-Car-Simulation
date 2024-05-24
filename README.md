@@ -30,11 +30,11 @@ Welcome to **FuzzyDrive**, a Unity 3D simulation that demonstrates the capabilit
     - **Polar_region(t)**: The angular region around the car where the obstacle is detected.
     - **Approach(t)**: A crisp value indicating whether a moving obstacle is approaching the car.
 
-![Figure 2](Figures/5.png)
+![Figure 2](Figures/2.png)
 - *Figure 2: Polar Regions for Obstacle Detections*
 
-![Figure 3: State Variables of the Car](Figures/5.png)
-- *Figure 3: Polar Regions for Obstacle Detections*
+![Figure 3: My vision of representing the polar regions in action](Figures/3.png)
+- *Figure 3: My vision of representing the polar regions in action*
 
 ### Behaviors:
 - **Path Follow Behavior**:
