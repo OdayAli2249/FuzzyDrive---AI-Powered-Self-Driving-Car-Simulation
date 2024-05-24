@@ -73,7 +73,7 @@ Welcome to **FuzzyDrive**, a Unity 3D simulation that demonstrates the capabilit
 
 ![Figure 3: output screen](Figures/4.png)
 
-[DEMO](https://www.researchgate.net/publication/2247942_Fuzzy_Control_to_Drive_Car-Like_Vehicles)
+[DEMO](https://drive.google.com/drive/folders/1zw306jIbmizZnSh8cGc6N6iLfTnBA0jq)
 
 ### Contributions:
 Contributions are welcome! Please fork the repository and create a pull request with your improvements or bug fixes.
