@@ -31,11 +31,11 @@ Welcome to **FuzzyDrive**, a Unity 3D simulation that demonstrates the capabilit
     - **Polar_region(t)**: The angular region around the car where the obstacle is detected.
     - **Approach(t)**: A crisp value indicating whether a moving obstacle is approaching the car.
 
-![Figure 2](Figures/2.png)
-- *Figure 2: Polar Regions for Obstacle Detections*
+![Figure 1.1: Rules](Figures/6.png)
+- *Figure 1.1: Rules*
 
-![Figure 3: My vision of representing the polar regions in action](Figures/3.png)
-- *Figure 3: My vision of representing the polar regions in action*
+![Figure 1.2: C# code representing a rule](Figures/5.png)
+- *Figure 1.2: C# code representing a rule*
 
 ### Behaviors:
 - **Path Follow Behavior**:
@@ -52,11 +52,11 @@ Welcome to **FuzzyDrive**, a Unity 3D simulation that demonstrates the capabilit
     - **Approach(t)**: {0, 1}
   - This behavior adjusts the car's steering and speed to avoid collisions with detected obstacles. Defuzzification uses the center of mass method to compute the final output.
 
-![Figure 1.1: Rules](Figures/6.png)
-- *Figure 1.1: Rules*
+![Figure 2](Figures/2.png)
+- *Figure 2: Polar Regions for Obstacle Detections*
 
-![Figure 1.2: C# code representing a rule](Figures/5.png)
-- *Figure 1.2: C# code representing a rule*
+![Figure 3: My vision of representing the polar regions in action](Figures/3.png)
+- *Figure 3: My vision of representing the polar regions in action*
 
 ### Defuzzification:
 - The system employs the center of mass method for defuzzification, ensuring smooth transitions between different control states.
