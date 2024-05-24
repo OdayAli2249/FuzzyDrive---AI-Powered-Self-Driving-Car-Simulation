@@ -2,6 +2,7 @@
 
 ### Description:
 Welcome to **FuzzyDrive**, a Unity 3D simulation that demonstrates the capabilities of an AI-powered self-driving car using fuzzy logic and rule-based system technologies. This project tackles the complex challenge of implementing a self-driving car simulation, based on research from a self-driving car simulation paper which you can find [here](https://www.researchgate.net/publication/2247942_Fuzzy_Control_to_Drive_Car-Like_Vehicles).
+- The simulation features two vehicles: one operated by the user and the other navigated by an intelligent system leveraging fuzzy logic principles and knowledge-based systems.
 
 ### Features:
 - **Fuzzy Logic System**: The self-driving car's decision-making process is built on fuzzy logic, utilizing fuzzy variables and fuzzy sets to manage the uncertainties and continuous nature of real-world driving conditions.
@@ -29,6 +30,12 @@ Welcome to **FuzzyDrive**, a Unity 3D simulation that demonstrates the capabilit
     - **Polar_region(t)**: The angular region around the car where the obstacle is detected.
     - **Approach(t)**: A crisp value indicating whether a moving obstacle is approaching the car.
 
+![Figure 2](Figures/5.png)
+- *Figure 2: Polar Regions for Obstacle Detections*
+
+![Figure 3: State Variables of the Car](Figures/5.png)
+- *Figure 3: Polar Regions for Obstacle Detections*
+
 ### Behaviors:
 - **Path Follow Behavior**:
   - **Input Variables**:
@@ -44,11 +51,11 @@ Welcome to **FuzzyDrive**, a Unity 3D simulation that demonstrates the capabilit
     - **Approach(t)**: {0, 1}
   - This behavior adjusts the car's steering and speed to avoid collisions with detected obstacles. Defuzzification uses the center of mass method to compute the final output.
 
-![Figure 2: Polar Regions for Obstacle Detection](Figures/2.png)
-- *Figure 2: Polar Regions for Obstacle Detections*
+![Figure 1.1: Rules](Figures/6.png)
+- *Figure 1.1: Rules*
 
-![Figure 3: My enhanced way of defining polar regions](Figures/3.png)
-- *Figure 3: My enhanced way of defining polar regions*
+![Figure 1.2: C# code representing a rule](Figures/5.png)
+- *Figure 1.2: C# code representing a rule*
 
 ### Defuzzification:
 - The system employs the center of mass method for defuzzification, ensuring smooth transitions between different control states.
