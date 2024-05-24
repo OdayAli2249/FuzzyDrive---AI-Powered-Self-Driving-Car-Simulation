@@ -69,7 +69,7 @@ Welcome to **FuzzyDrive**, a Unity 3D simulation that demonstrates the capabilit
 - **Control the User Car**: Use the keyboard or controller to navigate the user-controlled car.
 - **Observe the AI Car**: Watch the AI-powered car as it dynamically navigates the environment, avoiding obstacles and reacting to the user-controlled car.
 
-### Output ans Demo:
+### Output and Demo:
 
 ![Figure 3: output screen](Figures/4.png)
 
