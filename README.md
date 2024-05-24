@@ -3,6 +3,7 @@
 ### Description:
 Welcome to **FuzzyDrive**, a Unity 3D simulation that demonstrates the capabilities of an AI-powered self-driving car using fuzzy logic and rule-based system technologies. This project tackles the complex challenge of implementing a self-driving car simulation, based on research from a self-driving car simulation paper which you can find [here](https://www.researchgate.net/publication/2247942_Fuzzy_Control_to_Drive_Car-Like_Vehicles).
 - The simulation features two vehicles: one operated by the user and the other navigated by an intelligent system leveraging fuzzy logic principles and knowledge-based systems.
+- My contribution is to transform a theoretical concept in a scientific research into a measurable and controllable computer simulation using artificial intelligence technology, as well as an improvement on the method presented in the research to increase efficiency.
 
 ### Features:
 - **Fuzzy Logic System**: The self-driving car's decision-making process is built on fuzzy logic, utilizing fuzzy variables and fuzzy sets to manage the uncertainties and continuous nature of real-world driving conditions.
